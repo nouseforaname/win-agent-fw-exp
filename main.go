@@ -77,7 +77,7 @@ func main() {
 				},
 				{
 					Field: wf.FieldALEAppID,
-					Op:    wf.MatchTypeEqual,
+					Op:    wf.MatchTypeNotEqual,
 					Value: appId,
 				},
 				{
